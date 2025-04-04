@@ -32,7 +32,7 @@ nouns.forEach(noun => {
 let p = ['the', 'our'];
 let a = ['great', 'big'];
 let n = ['jogger', 'racoon'];
-let e = ['.com', '.net', '.io', '.es']; // ¡Ahora incluye .es!
+let e = ['.com', '.net', '.io', '.es']; 
 
 // Generación estándar
 for (let i = 0; i < p.length; i++) {
@@ -45,7 +45,7 @@ for (let i = 0; i < p.length; i++) {
   }
 }
 
-// Domain hack (ahora generará "raco.on")
+// Domain hack 
 for (let k = 0; k < n.length; k++) {
   for (let l = 0; l < e.length; l++) {
     const ext = e[l].replace('.', '');
